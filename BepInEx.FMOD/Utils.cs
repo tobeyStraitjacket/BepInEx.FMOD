@@ -5,7 +5,7 @@ using System;
 
 namespace BepInEx.FMOD
 {
-    internal sealed static class Utils
+    internal static class Utils
     {
         public static Sound CreateSound(string path, MODE mode = MODE.DEFAULT)
         {
